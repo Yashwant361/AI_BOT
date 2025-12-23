@@ -158,7 +158,6 @@ export default function Todo() {
               >
                 Edit
               </button>
-
               <button
                 onClick={() => dispatch(deleteTodo(todo.id))}
                 style={{
