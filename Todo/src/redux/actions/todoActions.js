@@ -16,7 +16,6 @@ export const addTodo = (text) => ({
 });
 
 
-
 export const deleteTodo = (id) => ({
     type: DELETE_TODO,
     payload: id,
