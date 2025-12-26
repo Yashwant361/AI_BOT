@@ -88,5 +88,4 @@ const styles = {
         margin: "0 8px"   // adds horizontal space
     }
 
-
 }
