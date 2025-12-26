@@ -16,7 +16,7 @@ export class Empolyee extends Component {
         return (
             <>
                 <div>
-                       <h1>{name} {age}</h1>
+                   <h1>{name} {age}</h1>
                 </div>
 
             </>
