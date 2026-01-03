@@ -1,0 +1,34 @@
+# node & build
+node_modules/
+dist/
+dist-ssr/
+
+# env / secrets
+.env
+.env.*
+constant.js
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+
+
+(AI_BOT)GitHub Repo
+   |
+   |-- push code
+   |
+   |-- GitHub Actions (CI/CD)
+          |
+          |-- build Vite app
+          |
+          |-- deploy to:
+                 ├─ GitHub Pages (now)
+                 └─ Cloudflare Pages (future)
